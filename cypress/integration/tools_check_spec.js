@@ -7,9 +7,8 @@ it("Logs in and tests the website", ()=>{
 	cy.readFile("cypress/fixtures/tools_links.json").then(($link_obj)=>{
 	    let links = $link_obj[0]["links"];
 	    let site_state = [];
-	    for(var j = 0; j < linkslength; j++){site_state.push({url:"", status:0, duration: 0, table: "", late_errors: "", testing_date: ""})}
+	    for(var j = 0; j < links.length; j++){site_state.push({url:"", status:0, duration: 0, table: "", late_errors: "", testing_date: ""})}
 	    cy.wrap(site_state).each(($state, i, $site_state)=>{
-		cy.wait(2000)
 		let link = links[i]
 		cy.request(link).then((resp, site_state)=>{
 		    $site_state[i].url = link;
