@@ -1,0 +1,253 @@
+[
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/units",
+    "status": 200,
+    "duration": 276,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/institutes",
+    "status": 200,
+    "duration": 261,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/people",
+    "status": 200,
+    "duration": 263,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/voting",
+    "status": 200,
+    "duration": 270,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/mo-list",
+    "status": 200,
+    "duration": 273,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/applicants",
+    "status": 200,
+    "duration": 266,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/emeritus-nominations",
+    "status": 200,
+    "duration": 257,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/statistics",
+    "status": 200,
+    "duration": 262,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/flags",
+    "status": 200,
+    "duration": 258,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/overdue-graduations",
+    "status": 200,
+    "duration": 264,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/tenures",
+    "status": 200,
+    "duration": 259,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/communications",
+    "status": 200,
+    "duration": 262,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/cms-weeks/bookings",
+    "status": 200,
+    "duration": 269,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/cms-weeks/weeks",
+    "status": 200,
+    "duration": 261,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/cms-weeks/rooms",
+    "status": 200,
+    "duration": 294,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/profile",
+    "status": 200,
+    "duration": 264,
+    "table": [
+      "Table number 0 has content",
+      "Table number 1 has content",
+      "Table number 2 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/pending-authors",
+    "status": 200,
+    "duration": 261,
+    "table": [
+      "Table number 0 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/member-authors",
+    "status": 200,
+    "duration": 284,
+    "table": [
+      "Table number 0 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/suspensions",
+    "status": 200,
+    "duration": 276,
+    "table": [
+      "Table number 0 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/overdue-graduations",
+    "status": 200,
+    "duration": 288,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/administration/engagement-office/due-corrector",
+    "status": 200,
+    "duration": 261,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/administration/engagement-office/due-corrections",
+    "status": 200,
+    "duration": 259,
+    "table": [
+      "Table number 0 is empty"
+    ],
+    "late_errors": [
+      "undefined : undefined",
+      "Error : Request failed with status code 403"
+    ],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/cadi/lines",
+    "status": 200,
+    "duration": 259,
+    "table": [
+      "Table number 0 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/cadi/arc-members",
+    "status": 200,
+    "duration": 275,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/cadi/awgs",
+    "status": 200,
+    "duration": 284,
+    "table": [
+      "Table number 0 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 12, 2021"
+  }
+]
