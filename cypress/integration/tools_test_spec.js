@@ -31,7 +31,7 @@ describe("Checking tools", () => {
                 cy.visit(link)
                 cy.server()
                 cy.route("**/tools-api/**").as("gets")
-                cy.login("arhayrap", "Arch1916F")
+                cy.login("login", "password")
                 cy.wait_for_requests("@gets", site_state[k])
                 cy.find_errors(site_state[k])
                 cy.wait(4000)
