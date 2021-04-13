@@ -16,7 +16,7 @@ describe("Checking tools", () => {
     for (let k = 0; k < n; k++) {
 
         it("Logs in and tests the pages", () => {
-            cy.readFile("cypress/integration/data/tools_links_exp.json").then(($link_obj) => {
+            cy.readFile("cypress/integration/data/tools_links.json").then(($link_obj) => {
                 let links = $link_obj[0]["links"];
                 let link = links[k];
                 site_state[k].url = link;
@@ -24,7 +24,7 @@ describe("Checking tools", () => {
                 site_state[k].testing_date = Cypress.moment().format('MMM DD, YYYY');
             })
 
-            cy.readFile("cypress/integration/data/tools_links_exp.json").then(($link_obj) => {
+            cy.readFile("cypress/integration/data/tools_links.json").then(($link_obj) => {
                 let links = $link_obj[0]["links"];
                 let link = links[k]
                 site_state[k].url = link;
@@ -43,7 +43,7 @@ describe("Checking tools", () => {
                 console.log(site_state)
             })
             cy.save_data(site_state[k], base)
-            cy.writeFile("cypress/integration/data/tools_out_exp.json", site_state);
+            cy.writeFile("cypress/integration/data/tools_test.json", site_state);
         })
     }
 })
