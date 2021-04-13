@@ -1,0 +1,153 @@
+[
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/units",
+    "status": 200,
+    "duration": 265,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/institutes",
+    "status": 200,
+    "duration": 270,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/people",
+    "status": 200,
+    "duration": 259,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/voting",
+    "status": 200,
+    "duration": 265,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/mo-list",
+    "status": 200,
+    "duration": 259,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/applicants",
+    "status": 200,
+    "duration": 265,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/emeritus-nominations",
+    "status": 200,
+    "duration": 259,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/statistics",
+    "status": 200,
+    "duration": 466,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/flags",
+    "status": 200,
+    "duration": 259,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/overdue-graduations",
+    "status": 200,
+    "duration": 264,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/tenures",
+    "status": 200,
+    "duration": 260,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/communications",
+    "status": 200,
+    "duration": 258,
+    "table": [
+      "Table named INSTITUTES has content",
+      "Table number 1 has content",
+      "Table named FUNDING AGENCIES has content",
+      "Table number 2 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/cms-weeks/bookings",
+    "status": 200,
+    "duration": 286,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/cms-weeks/weeks",
+    "status": 200,
+    "duration": 273,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/cms-weeks/rooms",
+    "status": 200,
+    "duration": 260,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 13, 2021"
+  }
+]
