@@ -32,7 +32,7 @@ describe("Checking tools", () => {
                 cy.visit(links[k]);
                 cy.server();
                 cy.route('POST', 'https://icms-dev.cern.ch/epr/**').as('posts');
-                cy.login("arhayrap", "Arch1916F");
+                cy.login("login", "password");
                 cy.wait(4000);
 
                 cy.get("body > div.container", {
