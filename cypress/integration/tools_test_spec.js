@@ -38,7 +38,7 @@ describe("Checking tools", () => {
                 cy.get("main", {
                     timeout: 40000
                 });
-                cy.wait(2000)
+                cy.wait(4000)
                 cy.check_tables(site_state[k])
                 console.log(site_state)
             })
