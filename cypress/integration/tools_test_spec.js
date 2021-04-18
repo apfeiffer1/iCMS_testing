@@ -25,7 +25,7 @@ describe("Checking tools", () => {
                 let links = $link_obj[0]["links"];
                 let link = links[k];
                 cy.visit(link)
-		cy.login("arhayrap", "Arch1916F")
+		cy.login("login", "password")
 		cy.wait(2000)
                 //cy.wait(4000)
                 cy.get("main", {
