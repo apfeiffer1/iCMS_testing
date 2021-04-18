@@ -28,7 +28,7 @@ describe("Checking epr", () => {
                 let link = links[k];
                 cy
 		.visit(links[k])
-                .login("arhayrap", "Arch1916F")
+                .login("login", "password")
                 .wait(4000);
                 cy.get("body > div.container", {
                     timeout: 50000
