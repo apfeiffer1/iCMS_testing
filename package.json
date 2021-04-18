@@ -8,11 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:run": "cypress run"
   },
   "author": "",
-  "license": "ISC",
-  "scripts": {
-    "cy:run": "cypress run"
-  }
+  "license": "ISC"
 }

@@ -1,0 +1,10 @@
+{
+  "url": "https://icms-dev.cern.ch/tools/publications/cadi/lines/approved",
+  "status": 200,
+  "duration": 264,
+  "table": [
+    "Table number 1 is empty"
+  ],
+  "late_errors": [],
+  "testing_date": "Apr 18, 2021"
+}

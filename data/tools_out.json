@@ -1,0 +1,319 @@
+[
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/units",
+    "status": 200,
+    "duration": 269,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/institutes",
+    "status": 200,
+    "duration": 263,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/people",
+    "status": 200,
+    "duration": 258,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/voting",
+    "status": 200,
+    "duration": 226,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/mo-list",
+    "status": 200,
+    "duration": 259,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/applicants",
+    "status": 200,
+    "duration": 258,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/emeritus-nominations",
+    "status": 200,
+    "duration": 257,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/statistics",
+    "status": 200,
+    "duration": 259,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/flags",
+    "status": 200,
+    "duration": 218,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/overdue-graduations",
+    "status": 200,
+    "duration": 222,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/tenures",
+    "status": 200,
+    "duration": 221,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/communications",
+    "status": 200,
+    "duration": 262,
+    "table": [
+      "Table number 1 has content",
+      "Table number 2 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/cms-weeks/bookings",
+    "status": 200,
+    "duration": 258,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/cms-weeks/weeks",
+    "status": 200,
+    "duration": 261,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/collaboration/cms-weeks/rooms",
+    "status": 200,
+    "duration": 225,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/profile",
+    "status": 200,
+    "duration": 221,
+    "table": [
+      "Table number 1 has content",
+      "Table number 2 has content",
+      "Table number 3 has content",
+      "Table number 4 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/pending-authors",
+    "status": 200,
+    "duration": 262,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/member-authors",
+    "status": 200,
+    "duration": 226,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/suspensions",
+    "status": 200,
+    "duration": 219,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/institute/overdue-graduations",
+    "status": 200,
+    "duration": 223,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/administration/engagement-office/due-corrector",
+    "status": 200,
+    "duration": 220,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/administration/engagement-office/due-corrections",
+    "status": 200,
+    "duration": 265,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/cadi/lines",
+    "status": 200,
+    "duration": 215,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/cadi/arc-members",
+    "status": 200,
+    "duration": 263,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/cadi/awgs",
+    "status": 200,
+    "duration": 221,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/cadi/lines/approved",
+    "status": 200,
+    "duration": 264,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/cadi/lines/updated",
+    "status": 200,
+    "duration": 258,
+    "table": [
+      "Table number 1 is empty"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/cadi/dashboard",
+    "status": 200,
+    "duration": 264,
+    "table": [
+      "Table number 1 has content",
+      "Table number 2 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/cadi/check-latex-build",
+    "status": 200,
+    "duration": 260,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/author-lists/open-author-lists",
+    "status": 200,
+    "duration": 224,
+    "table": [
+      "Table number 1 has content"
+    ],
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/author-lists/files",
+    "status": 200,
+    "duration": 258,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/author-lists/author-data",
+    "status": 200,
+    "duration": 259,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  },
+  {
+    "url": "https://icms-dev.cern.ch/tools/publications/notes/entries",
+    "status": 200,
+    "duration": 259,
+    "table": "None",
+    "late_errors": [],
+    "testing_date": "Apr 18, 2021"
+  }
+]

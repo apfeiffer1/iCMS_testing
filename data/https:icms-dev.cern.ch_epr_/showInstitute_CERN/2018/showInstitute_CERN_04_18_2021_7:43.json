@@ -1,0 +1,14 @@
+{
+  "url": "https://icms-dev.cern.ch/epr/showInstitute/CERN",
+  "status": 200,
+  "duration": 262,
+  "table": [
+    "Table number 1 has content",
+    "Table number 2 is empty",
+    "Table number 3 is empty",
+    "Table number 4 is empty",
+    "Table number 5 is empty"
+  ],
+  "late_errors": [],
+  "testing_date": "Apr 18, 2021"
+}
