@@ -32,13 +32,9 @@ describe("Checking tools", () => {
                     timeout: 40000
                 })
 		cy.wait_for_requests("@gets", site_state[k]);
-		//cy.wait_for_requests("@gets", site_state[k]);
-		//cy.wait_for_requests("@gets", site_state[k]);
-		//cy.wait_for_requests("@gets", site_state[k]);
 		cy.find_errors(site_state[k])
 		cy.find_popup_alerts(site_state[k])
                 cy.check_tables(site_state[k])
-		//cy.reload();
                 console.log(site_state);
             })
             cy.save_data(site_state[k], base);
