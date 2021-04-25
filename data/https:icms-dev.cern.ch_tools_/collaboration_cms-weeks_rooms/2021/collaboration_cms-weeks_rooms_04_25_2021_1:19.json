@@ -1,0 +1,10 @@
+{
+  "url": "https://icms-dev.cern.ch/tools/collaboration/cms-weeks/rooms",
+  "status": 200,
+  "duration": 258,
+  "table": [
+    "Table number 1 has content"
+  ],
+  "late_errors": [],
+  "testing_date": "Apr 25, 2021"
+}

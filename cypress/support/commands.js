@@ -69,7 +69,7 @@ Cypress.Commands.add("check_tables_epr", (site_state) => {
         var t = [];
         var site = site_state;
         if ($body.find("table").length) {
-            cy.get("div.container table > tbody").as("table_body")
+            cy.get("div.container table > tbody").as("table_body");
             cy.get("@table_body").each(($tabs, index0, $tab) => {
                 cy.get("@table_body").eq(index0).children().then((tr) => {
                         cy.get("@table_body").eq(index0).children();
@@ -88,16 +88,15 @@ Cypress.Commands.add("wait_for_requests", (alias, site_state) => {
     cy.wait(alias, {
         timeout: 40000
     }).then((xhr) => {
-        if (xhr.status < 599 && xhr.status > 400) {
+        if (xhr.status < 600 && xhr.status > 400) {
             site_state.late_errors.push(xhr.url + " : " + xhr.status + "  " + xhr.statusMessage);
         }
-    })
+    });
 })
 
 Cypress.Commands.add("find_errors", (site_state) => {
     cy.window().then((win) => {
         cy.stub(win.console, 'error', ($obj) => {
-            console.log($obj.name + " : " + $obj.message);
 	    if($obj.message != undefined){
     	        site_state.late_errors.push($obj.name + " : " + $obj.message);
 	    }
@@ -110,7 +109,6 @@ Cypress.Commands.add("find_errors", (site_state) => {
 
 Cypress.Commands.add("find_popup_alerts", (site_state) => {
     cy.on('window:alert', ($obj) => {
-            console.log($obj);
             site_state.late_errors.push($obj);
     });
 })
@@ -124,7 +122,6 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 Cypress.Commands.add("select_year", (alias = "GET", site_state, year_index) => {
     cy.get("div.navbar-collapse").first().get("ul.navbar-nav").first().as("header_menu");
     cy.get("@header_menu").children().eq(0).as("curr_opt").click();
-    //cy.wait_for_requests(alias, site_state);
     cy.get("@curr_opt").children().last().then(() => {
 	cy.get("@curr_opt").children().last().children("li").not(".required").eq(year_index).click();
     });
@@ -133,7 +130,6 @@ Cypress.Commands.add("select_year", (alias = "GET", site_state, year_index) => {
 Cypress.Commands.add("click_navbar_elems", (alias = "GET", site_state) => {
     cy.get("div.navbar-collapse").first().get("ul.navbar-nav").first().as("header_menu");
     cy.get("@curr_opt").click();
-    //cy.wait_for_requests(alias, site_state);
     cy.wait(2000);
     cy.get("@header_menu").get("ul.nav > li.dropdown", {
         timeout: 40000

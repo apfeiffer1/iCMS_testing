@@ -1,0 +1,12 @@
+{
+  "url": "https://icms-dev.cern.ch/epr/showProjectTasks/173",
+  "status": 200,
+  "duration": 261,
+  "table": [
+    "Table number 1 is empty",
+    "Table number 2 has content",
+    "Table number 3 has content"
+  ],
+  "late_errors": [],
+  "testing_date": "Apr 25, 2021"
+}

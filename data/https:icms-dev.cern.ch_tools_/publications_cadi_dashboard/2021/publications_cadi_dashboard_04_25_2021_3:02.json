@@ -1,0 +1,11 @@
+{
+  "url": "https://icms-dev.cern.ch/tools/publications/cadi/dashboard",
+  "status": 200,
+  "duration": 261,
+  "table": [
+    "Table number 1 has content",
+    "Table number 2 has content"
+  ],
+  "late_errors": [],
+  "testing_date": "Apr 25, 2021"
+}
