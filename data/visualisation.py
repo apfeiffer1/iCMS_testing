@@ -1,40 +1,40 @@
 import plotly.graph_objects as go
 from plotly.colors import n_colors
+import dash
+import dash_table
 import numpy as np
 import pandas as pd
 import sys
 
-data1 = pd.read_json(sys.argv[1])
-dataf = pd.DataFrame(data1)
-dataf["table"] = dataf["table"].apply(lambda a: ", <br>".join(a) if a != "None" else None)
-dataf["url"] = dataf["url"].apply(lambda a: "/tools/<br>".join(a.split("/tools/")))
+data = pd.read_json(sys.argv[1])
+dataf = pd.DataFrame(data)
+dataf["table"] = dataf["table"].apply(lambda a: ", ".join(a) if a != "None" else None)
 
 columns = dataf.columns
 
-color = [[], [], [], [], [], []]
+color = []
 
-color[4] = dataf["late_errors"].apply(lambda a: "red" if len(a) != 0 else "lightgreen")
-color[0] = color[1] = color[2] = color[3] = color[5] = ["white"]*34
+color = dataf["late_errors"].apply(lambda a: "red" if len(a) != 0 else "lightgreen")
+colors = n_colors('rgb(255, 200, 200)', 'rgb(200, 0, 0)', 9, colortype='rgb')
 
-# colors = n_colors('rgb(255, 200, 200)', 'rgb(200, 0, 0)', 9, colortype='rgb')
+app = dash.Dash(__name__)
+app.layout = dash_table.DataTable(
+    style_cell={
+	'whiteSpace': 'normal',
+	'height': 'auto',
+    },
+    columns=[{'id': c, 'name': c} for c in dataf.columns],
+    data=dataf.to_dict('records'),
+    style_data_conditional=[{
+	'if': {
+	    'column_id': 'late_errors',
+	    'row_index': i
+	},
+	'backgroundColor': color[i],
+	'color':'white'
+    } for i in range(len(color.to_list()))],
+)
+if __name__ == "__main__":
+    app.run_server(debug=True)
 
-fig = go.Figure(data=[go.Table(
-  header=dict(
-    values=columns,
-    align=['left'],
-    line_color='black', fill_color='white',
-    font=dict(color='black'),
-    height=30
-  ),
-  cells=dict(
-    values=dataf.values.T,
-    line_color="black",
-    fill_color=color,
-    font=dict(color='black'),
-    align=['left'],
-    height=60,
-    font_size=11,
-    ))
-])
 
-fig.show()

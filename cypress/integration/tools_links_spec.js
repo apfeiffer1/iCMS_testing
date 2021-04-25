@@ -33,7 +33,7 @@ it("Gets the links", () => {
 	}
 	});
     cy.writeFile("cypress/fixtures/epr_links.json", [{"links": links}]);
-    console.log(links)
+    console.log(links);
 });
 
 })
